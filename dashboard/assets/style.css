@@ -1,0 +1,21 @@
+.listening-period-picker {
+    width: 280px;
+}
+
+.listening-period-picker .DateInput,
+.listening-period-picker .DateInput_input,
+.listening-period-picker .DateRangePickerInput {
+    background: #181818 !important;
+    color: #ffffff !important;
+    border-color: #535353 !important;
+}
+
+.listening-period-picker .DateInput_input {
+    width: 112px !important;
+    padding: 6px 8px !important;
+    font-size: 11px !important;
+}
+
+.listening-period-picker .DateRangePickerInput_arrow {
+    color: #b3b3b3 !important;
+}

@@ -1,0 +1,29 @@
+# Secrets and local configuration
+.env
+config/google_credentials.json
+config/last_played_at.txt
+simple_auth_manager_passwords.json.generated
+
+# Python environments and caches
+.venv/
+airflow_venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Airflow runtime files
+airflow.db
+airflow.db-shm
+airflow.db-wal
+logs/
+
+# Generated pipeline data
+raw/
+bronze/
+silver/
+gold/
+spotify_folder/
+
+# OS and editor files
+.DS_Store
+.vscode/

@@ -1,0 +1,15 @@
+.listening-period-picker .DateRangePickerInput,
+.listening-period-picker .DateInput,
+.listening-period-picker .DateInput_input {
+    background: #121212 !important;
+    color: #ffffff !important;
+    border-color: #535353 !important;
+}
+
+.listening-period-picker .DateInput_input::placeholder {
+    color: #b3b3b3 !important;
+}
+
+.listening-period-picker .DateRangePickerInput_arrow_svg {
+    fill: #b3b3b3 !important;
+}
