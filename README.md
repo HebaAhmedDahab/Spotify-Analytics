@@ -2,8 +2,6 @@
 
 A small Spotify data pipeline that extracts recently played tracks, transforms them into analytics-ready records, stores them in PostgreSQL, and displays listening insights in a Dash dashboard.
 
-<img width="766" height="731" alt="image" src="https://github.com/user-attachments/assets/841ade06-5898-4a20-99bf-8447c04f60c7" />
-
 
 ## Features
 
