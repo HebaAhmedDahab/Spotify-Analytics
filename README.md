@@ -43,26 +43,6 @@ pip install -r requirments.txt
 
 Create a `.env` file in the project root. Never commit it.
 
-```env
-CLIENT_ID=your_spotify_client_id
-CLIENT_SECRET=your_spotify_client_secret
-REDIRECT_URI=your_spotify_redirect_uri
-REFRESH_TOKEN=your_spotify_refresh_token
-
-PROJECT_ROOT=/absolute/path/to/spotify_analytics
-OUTPUT_FOLDER=/absolute/path/to/spotify_analytics/bronze
-
-POSTGRES_HOST=localhost
-POSTGRES_PORT=5432
-POSTGRES_DB=spotifyanalytics
-POSTGRES_USER=spotify_user
-POSTGRES_PASSWORD=your_database_password
-
-# Optional Google Sheets sync
-SPREADSHEETS_KEY=your_google_spreadsheet_id
-GOOGLE_SERVICE_ACCOUNT_PATH=/absolute/path/to/google_credentials.json
-```
-
 Create the database tables with `sql/schema.sql`, then make sure the Spotify refresh token has permission to read recently played tracks.
 
 ## Run the Pipeline
